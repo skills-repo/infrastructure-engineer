@@ -25,13 +25,13 @@
 
 ```bash
 # 安装全部基础设施技能
-npx skills add skills-repo/infrastructure-engineer
+npx skills add skills-repo/infrastructure-engineer -g -y
 
 # 或按需安装单个技能
-npx skills add skills-repo/infrastructure-engineer@terraform-module-library
-npx skills add skills-repo/infrastructure-engineer@terraform-diff-analyzer
-npx skills add skills-repo/infrastructure-engineer@kubernetes-observability
-npx skills add skills-repo/infrastructure-engineer@terraform-data-infra
+npx skills add skills-repo/infrastructure-engineer@terraform-module-library -g -y
+npx skills add skills-repo/infrastructure-engineer@terraform-diff-analyzer -g -y
+npx skills add skills-repo/infrastructure-engineer@kubernetes-observability -g -y
+npx skills add skills-repo/infrastructure-engineer@terraform-data-infra -g -y
 ```
 
 ## 与本组织其他仓库的关系
