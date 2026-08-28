@@ -43,3 +43,10 @@
 
 - 不一刀切要求抽象；一次性代码内联更优。
 - 不替用户决定模块粒度；给出权衡建议。
+
+## 相关子技能与层次边界
+
+- 落地到 `skills/terraform-module-library/SKILL.md`：模块目录结构、变量设计、测试策略与版本发布（本 playbook 的设计准则即该子技能的工程化落地）。
+- 兄弟 playbook `references/terraform-change-safety.md`：模块上线前的 Plan 审查与安全门禁（设计质量 + 变更安全共同决定可维护性）。
+- 相关资产 `assets/infra-review-checklist.md`：模块与基础设施上线的统一检查清单。
+- 边界：本 playbook 只给设计准则与权衡建议，不替用户决定模块粒度，也不做 apply。

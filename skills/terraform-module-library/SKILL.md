@@ -66,3 +66,8 @@ tags:
 - 模块测试需要真实的云资源或 Mock 环境
 - 复杂模块的依赖关系需要额外设计
 - Provider 版本兼容性需要手动管理
+
+## 相关参考（Playbook）
+
+模块设计准则、接口/版本/测试策略 → `references/iac-module-design.md`；
+模块上线前的变更安全审查 → `references/terraform-change-safety.md`。

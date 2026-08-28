@@ -66,3 +66,8 @@ tags:
 - 云服务商的 Terraform Provider 功能覆盖可能不完整
 - 大数据集群的调优参数需要根据实际负载调整
 - State 文件管理需要额外注意（建议使用远程 Backend）
+
+## 相关参考（Playbook）
+
+数据基础设施变更（RDS/桶/State）破坏面最高，上线前审查 → `references/terraform-change-safety.md`；
+模块设计准则与版本策略 → `references/iac-module-design.md`。

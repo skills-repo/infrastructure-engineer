@@ -43,3 +43,13 @@
 
 - 脚本只做静态标红，不替代人工判断破坏面。
 - 不替用户执行 apply；产出审查报告，拍板留给用户。
+
+## 相关子技能与层次边界
+
+- 落地到 `skills/terraform-diff-analyzer/SKILL.md`：Plan 解析、风险识别与结构化审查报告（本 playbook 的审查工作流即该子技能的实操步骤）。
+- 关联 `skills/terraform-data-infra/SKILL.md`：数据基础设施变更（RDS/桶/State）破坏面最高，是 change-safety 的重点对象。
+- 关联 `skills/terraform-module-library/SKILL.md`：模块设计质量直接影响变更安全（接口稳定 = 破坏性变更少）。
+- 相关脚本 `scripts/tf_plan_risk.py`：静态标红 delete/replace 与安全资源（审查工作流第 1 步）。
+- 相关资产 `assets/infra-review-checklist.md`：上线前检查清单（本 playbook 已引用）。
+- 兄弟 playbook `references/iac-module-design.md`：设计阶段就降低变更风险。
+- 边界：脚本只做静态标红，不替代人工判断破坏面；不替用户执行 apply。

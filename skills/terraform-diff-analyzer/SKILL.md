@@ -66,3 +66,9 @@ tags:
 - 风险判断基于规则引擎，需要根据组织规范调整风险阈值
 - 不支持跨 Provider 的依赖分析
 - 复杂模块的内部变更需要手动展开
+
+## 相关参考（Playbook）
+
+Plan 审查工作流、风险目录与上线前检查清单 → `references/terraform-change-safety.md`；
+自动化标红 delete/replace 与安全资源 → `scripts/tf_plan_risk.py`；
+统一检查清单 → `assets/infra-review-checklist.md`。

@@ -66,3 +66,7 @@ tags:
 - 大规模集群的指标采集可能有性能开销
 - 不包含 APM（应用性能监控）的代码级 instrumentation
 - 告警规则需要根据实际业务调整阈值
+
+## 相关参考（Playbook）
+
+K8s 可观测性四支柱与黄金信号审查框架 → `references/kubernetes-observability.md`。

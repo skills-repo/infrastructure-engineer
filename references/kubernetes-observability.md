@@ -42,3 +42,9 @@
 
 - 不替用户改集群配置；产出诊断与建议。
 - 采样率、保留期等需结合成本权衡，标注建议而非命令。
+
+## 相关子技能与层次边界
+
+- 落地到 `skills/kubernetes-observability/SKILL.md`：日志聚合、指标采集、分布式追踪与告警规则的具体落地（本 playbook 的四支柱与黄金信号即该子技能的审查框架）。
+- 兄弟 playbook：`references/iac-module-design.md`、`references/terraform-change-safety.md` 覆盖 IaC 侧；可观测性是独立运行时维度，不与二者重叠。
+- 边界：本 playbook 只产出可观测性短板清单与优先级建议，不替用户改集群配置。
