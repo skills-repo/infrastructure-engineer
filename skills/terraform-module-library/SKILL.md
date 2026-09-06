@@ -69,5 +69,5 @@ tags:
 
 ## 相关参考（Playbook）
 
-模块设计准则、接口/版本/测试策略 → `references/iac-module-design.md`；
-模块上线前的变更安全审查 → `references/terraform-change-safety.md`。
+模块设计准则、接口/版本/测试策略 → [references/iac-module-design.md](../../references/iac-module-design.md)；
+模块上线前的变更安全审查 → [references/terraform-change-safety.md](../../references/terraform-change-safety.md)。

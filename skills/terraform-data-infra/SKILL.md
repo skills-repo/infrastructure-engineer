@@ -69,5 +69,5 @@ tags:
 
 ## 相关参考（Playbook）
 
-数据基础设施变更（RDS/桶/State）破坏面最高，上线前审查 → `references/terraform-change-safety.md`；
-模块设计准则与版本策略 → `references/iac-module-design.md`。
+数据基础设施变更（RDS/桶/State）破坏面最高，上线前审查 → [references/terraform-change-safety.md](../../references/terraform-change-safety.md)；
+模块设计准则与版本策略 → [references/iac-module-design.md](../../references/iac-module-design.md)。

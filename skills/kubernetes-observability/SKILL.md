@@ -69,4 +69,4 @@ tags:
 
 ## 相关参考（Playbook）
 
-K8s 可观测性四支柱与黄金信号审查框架 → `references/kubernetes-observability.md`。
+K8s 可观测性四支柱与黄金信号审查框架 → [references/kubernetes-observability.md](../../references/kubernetes-observability.md)。
