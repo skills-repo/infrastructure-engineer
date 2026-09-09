@@ -33,13 +33,13 @@ metadata:
 
 | 任务 | 读取 / 调用 | 关键词（grep 线索） |
 |------|------------|---------------------|
-| Terraform 变更安全（Plan 审查/破坏面/回滚） | `references/terraform-change-safety.md` | terraform plan 审查 破坏面 blast radius 回滚 变更安全 |
-| K8s 可观测性（黄金信号/日志指标追踪/告警） | `references/kubernetes-observability.md` | k8s 可观测性 黄金信号 日志 指标 tracing 告警 slo |
-| IaC 模块设计（接口/版本/测试/组合） | `references/iac-module-design.md` | terraform 模块 设计 接口 版本 测试 组合 iac |
-| K8s 可观测性：日志聚合、指标采集、分布式追踪、告警规则 | `skills/kubernetes-observability/SKILL.md` | k8s 可观测性 日志 指标 追踪 告警 分布式 tracing prometheus |
-| 数据工程基础设施：ETL、数据仓库、批处理集群的 IaC | `skills/terraform-data-infra/SKILL.md` | 数据工程 基础设施 etl 数据仓库 批处理 terraform 数据湖 |
-| 基础设施变更分析：Plan 审查、State 对比、风险识别 | `skills/terraform-diff-analyzer/SKILL.md` | terraform 变更 分析 plan 审查 state 对比 风险 |
-| Terraform 模块开发：编写、测试、发布可复用 IaC 模块 | `skills/terraform-module-library/SKILL.md` | terraform 模块 开发 测试 发布 iac 复用 |
+| Terraform 变更安全（Plan 审查/破坏面/回滚） | [references/terraform-change-safety.md](references/terraform-change-safety.md) | terraform plan 审查 破坏面 blast radius 回滚 变更安全 |
+| K8s 可观测性（黄金信号/日志指标追踪/告警） | [references/kubernetes-observability.md](references/kubernetes-observability.md) | k8s 可观测性 黄金信号 日志 指标 tracing 告警 slo |
+| IaC 模块设计（接口/版本/测试/组合） | [references/iac-module-design.md](references/iac-module-design.md) | terraform 模块 设计 接口 版本 测试 组合 iac |
+| K8s 可观测性：日志聚合、指标采集、分布式追踪、告警规则 | [skills/kubernetes-observability/SKILL.md](skills/kubernetes-observability/SKILL.md) | k8s 可观测性 日志 指标 追踪 告警 分布式 tracing prometheus |
+| 数据工程基础设施：ETL、数据仓库、批处理集群的 IaC | [skills/terraform-data-infra/SKILL.md](skills/terraform-data-infra/SKILL.md) | 数据工程 基础设施 etl 数据仓库 批处理 terraform 数据湖 |
+| 基础设施变更分析：Plan 审查、State 对比、风险识别 | [skills/terraform-diff-analyzer/SKILL.md](skills/terraform-diff-analyzer/SKILL.md) | terraform 变更 分析 plan 审查 state 对比 风险 |
+| Terraform 模块开发：编写、测试、发布可复用 IaC 模块 | [skills/terraform-module-library/SKILL.md](skills/terraform-module-library/SKILL.md) | terraform 模块 开发 测试 发布 iac 复用 |
 
 > 路由规则：方法论 / 审查类任务读 `references/`；要落地具体动作（搭监控、管数据、析变更、写模块）直接调 `skills/`。
 
@@ -60,7 +60,7 @@ python3 scripts/tf_plan_risk.py plan.json --strict
 
 `assets/` 提供可直接套用的配置与模板：
 
-- `assets/infra-review-checklist.md` — apply 前评审清单（计划/数据/状态/版本/回滚）。
+- [assets/infra-review-checklist.md](assets/infra-review-checklist.md) — apply 前评审清单（计划/数据/状态/版本/回滚）。
 
 ## 核心原则（始终遵循）
 

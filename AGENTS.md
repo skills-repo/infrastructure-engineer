@@ -6,10 +6,10 @@
 
 | 环节 | 技能 | 文件 | 用途 |
 |------|------|------|------|
-| 模块 | terraform-module-library | `skills/terraform-module-library/SKILL.md` | Terraform 模块开发：编写、测试、发布可复用模块 |
-| 变更 | terraform-diff-analyzer | `skills/terraform-diff-analyzer/SKILL.md` | 基础设施变更分析：Plan 审查、State 对比、风险识别 |
-| 观测 | kubernetes-observability | `skills/kubernetes-observability/SKILL.md` | K8s 可观测性：日志、指标、追踪、告警配置 |
-| 数据 | terraform-data-infra | `skills/terraform-data-infra/SKILL.md` | 数据工程基础设施：ETL 管道、数据仓库、批处理 |
+| 模块 | terraform-module-library | [skills/terraform-module-library/SKILL.md](skills/terraform-module-library/SKILL.md) | Terraform 模块开发：编写、测试、发布可复用模块 |
+| 变更 | terraform-diff-analyzer | [skills/terraform-diff-analyzer/SKILL.md](skills/terraform-diff-analyzer/SKILL.md) | 基础设施变更分析：Plan 审查、State 对比、风险识别 |
+| 观测 | kubernetes-observability | [skills/kubernetes-observability/SKILL.md](skills/kubernetes-observability/SKILL.md) | K8s 可观测性：日志、指标、追踪、告警配置 |
+| 数据 | terraform-data-infra | [skills/terraform-data-infra/SKILL.md](skills/terraform-data-infra/SKILL.md) | 数据工程基础设施：ETL 管道、数据仓库、批处理 |
 
 ## 使用场景
 

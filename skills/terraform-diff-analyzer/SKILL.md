@@ -70,5 +70,5 @@ tags:
 ## 相关参考（Playbook）
 
 Plan 审查工作流、风险目录与上线前检查清单 → [references/terraform-change-safety.md](../../references/terraform-change-safety.md)；
-自动化标红 delete/replace 与安全资源 → `scripts/tf_plan_risk.py`；
-统一检查清单 → `assets/infra-review-checklist.md`。
+自动化标红 delete/replace 与安全资源 → [scripts/tf_plan_risk.py](../../scripts/tf_plan_risk.py)；
+统一检查清单 → [assets/infra-review-checklist.md](../../assets/infra-review-checklist.md)。
